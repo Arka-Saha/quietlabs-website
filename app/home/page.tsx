@@ -41,15 +41,15 @@ const HomePage = () => {
         {/* overlay text univ pnp robo contr */}
         <div className="relative z-10 text-center text-white -mt-20">
             <div>
-                <span className={` ${instrumentSerif_normal.className} text-[55px]`}>Universal</span>
-                <span className={` ${instrumentSerif_italic.className} text-[55px]`}> Plug n Play</span>
+                <span className={` ${instrumentSerif_normal.className} text-[35px] md:text-[55px]`}>Universal</span>
+                <span className={` ${instrumentSerif_italic.className} text-[35px] md:text-[55px]`}> Plug n Play</span>
             </div>
             <div className="-mt-2">
-                <span className={` ${instrumentSerif_normal.className} text-[55px] ml-40`}>Robotic Controller</span>
+                <span className={` ${instrumentSerif_normal.className} text-[35px] md:text-[55px] ml-20 md:ml-40`}>Robotic Controller</span>
             </div>
         </div>
 
-        <div className={`absolute bottom-50 left-8 z-10 text-white ${instrumentSerif_normal.className} text-[44px] underline text-right cursor-pointer`} onClick={()=> betaTestingClickHandler()}>
+        <div className={`absolute bottom-50 left-8 z-10 text-white ${instrumentSerif_normal.className} text-[30px] md:text-[44px] underline text-right cursor-pointer`} onClick={()=> betaTestingClickHandler()}>
             join beta testing
         </div>
 
