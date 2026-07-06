@@ -5,7 +5,7 @@ import Navbar from "./_components/Navbar";
 
 export const metadata: Metadata = {
   title: "Quiet Labs",
-  description: "Quiet Labs, India's first universal plug n play robotic controller",
+  description: "Innovating in deep tech",
 };
 
 export default function RootLayout({
